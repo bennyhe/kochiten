@@ -1,7 +1,7 @@
 @import "./_import.reset.scss";
 @import "./_import.mixin.scss";
-@import "./_import.mod-nav.scss";
-@import "./_import.mod-btn.scss";
+// @import "./_import.mod-nav.scss";
+// @import "./_import.mod-btn.scss";
 
 body {
   line-height: 1.5;
@@ -95,6 +95,40 @@ h3 {
   font-size: 12px;
   color: #9d9d9d;
   margin-top: 3px;
+}
+
+.card-list {
+  &__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    max-width: 160px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 6px;
+  }
+
+  h3 {
+    text-align: center;
+    background-color: rgba($color: #fff, $alpha: .4);
+    border-top: 2px solid #333;
+    border-bottom: 1px solid #ccc;
+    color: $mainColor;
+  }
+  .name2 {
+    opacity: .7;
+  }
+  .namejp {
+    color: darken(lightblue, 30%);
+  }
+  .namecn {
+    color: #444;
+    font-size: 13px;
+  }
+  .extra {
+    font-size: 13px;
+  }
 }
 
 // 移动端适配
