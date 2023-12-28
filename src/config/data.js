@@ -101,7 +101,7 @@ const CardData = [{
     cardnamejp: '涙の懇願',
     cardnamecn: '哭诉请愿'
   },
-  extra: '固有能力面效果为（神殿）1任意资源及+1GP，能力名直译应为“享乐的技巧”'
+  extra: '固有能力面效果为（神殿）1任意资源及+1GP'
 },
 {
   cardnamejp: '笑顔のおねだり',
@@ -135,7 +135,7 @@ const CardData = [{
     cardnamejp: '夢のバンドデビュー',
     cardnamecn: '梦想中的乐队出道'
   },
-  extra: '固有能力面括号内的内容意为（污秽cost需照常支付），能力名直译应为"积累实地经验后升职的实力者"'
+  extra: '固有能力面括号内的内容意为（污秽cost需照常支付）'
 },
 {
   cardnamejp: 'アタシのダチ（友人）',
